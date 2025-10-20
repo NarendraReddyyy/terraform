@@ -1,7 +1,4 @@
-resource "azurerm_resource_group" "this" {
-  for_each = var.resource_groups
-
-  name     = each.value.name
-  location = each.value.location
-
+module "sijarvis_resource_group_ukso" {
+  source  = "app.terraform.io/practice-tfe/group/resource"
+  version = "2.0.0"
 }
