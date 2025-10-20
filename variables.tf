@@ -4,7 +4,7 @@
 #     location = string
 #   }))
 # }
-variable "sijarvis_resource_groups_ukso" {
+variable "group" {
   type = map(object({
     name = string
     location = string

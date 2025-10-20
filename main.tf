@@ -1,4 +1,5 @@
-module "sijarvis_resource_group_ukso" {
+module "group" {
   source  = "app.terraform.io/practice-tfe/group/resource"
   version = "2.0.0"
+  resource_groups = var.resource_groups
 }

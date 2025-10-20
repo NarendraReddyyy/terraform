@@ -3,7 +3,7 @@
 #   rg2 = { name = "dev-rg2", location = "West Europe" }
 #   rg3 = { name = "dev-rg3", location = "Central US" }
 # }
-sijarvis_resource_groups_ukso = {
+group = {
   resource-group-1 = {
     name= "rg1"
     location = "eastus2"
