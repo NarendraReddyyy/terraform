@@ -12,12 +12,4 @@ resource_groups = {
     name    = "rg2"
     location = "uksouth"
   }
-   resource-group-3 = {
-    name    = "rg3"
-    location = "eastus"
-  }
-  resource-group-4 = {
-    name    = "rg4"
-    location = "eastus2"
-  }
 }
